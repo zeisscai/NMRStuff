@@ -1,0 +1,17 @@
+[package]
+name = "nmrstuff-cli"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "nmrstuff-cli"
+path = "src/main.rs"
+
+[dependencies]
+nmrstuff-core.workspace = true
+nmrstuff-formats.workspace = true
+nmrstuff-proc.workspace = true
+nmrstuff-analysis.workspace = true
+nmrstuff-report.workspace = true
+clap.workspace = true

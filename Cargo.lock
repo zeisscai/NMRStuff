@@ -1925,82 +1925,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "mnv-analysis"
-version = "0.1.0"
-dependencies = [
- "mnv-core",
-]
-
-[[package]]
-name = "mnv-app"
-version = "0.1.0"
-dependencies = [
- "eframe",
- "egui",
- "mnv-analysis",
- "mnv-core",
- "mnv-formats",
- "mnv-proc",
- "mnv-render",
- "mnv-report",
- "serde",
- "serde_json",
-]
-
-[[package]]
-name = "mnv-cli"
-version = "0.1.0"
-dependencies = [
- "clap",
- "mnv-analysis",
- "mnv-core",
- "mnv-formats",
- "mnv-proc",
- "mnv-report",
-]
-
-[[package]]
-name = "mnv-core"
-version = "0.1.0"
-dependencies = [
- "num-complex",
- "serde",
- "serde_json",
- "thiserror 2.0.21",
-]
-
-[[package]]
-name = "mnv-formats"
-version = "0.1.0"
-dependencies = [
- "mnv-core",
- "num-complex",
-]
-
-[[package]]
-name = "mnv-proc"
-version = "0.1.0"
-dependencies = [
- "mnv-core",
- "num-complex",
- "rustfft",
-]
-
-[[package]]
-name = "mnv-render"
-version = "0.1.0"
-dependencies = [
- "mnv-core",
-]
-
-[[package]]
-name = "mnv-report"
-version = "0.1.0"
-dependencies = [
- "mnv-core",
-]
-
-[[package]]
 name = "moxcms"
 version = "0.8.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2076,6 +2000,82 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "ee6cda3051665f1fb8d9e08fc35c96d5a244fb1be711a03b71118828afc9a873"
 dependencies = [
  "jni-sys 0.3.1",
+]
+
+[[package]]
+name = "nmrstuff-analysis"
+version = "0.1.0"
+dependencies = [
+ "nmrstuff-core",
+]
+
+[[package]]
+name = "nmrstuff-app"
+version = "0.1.0"
+dependencies = [
+ "eframe",
+ "egui",
+ "nmrstuff-analysis",
+ "nmrstuff-core",
+ "nmrstuff-formats",
+ "nmrstuff-proc",
+ "nmrstuff-render",
+ "nmrstuff-report",
+ "serde",
+ "serde_json",
+]
+
+[[package]]
+name = "nmrstuff-cli"
+version = "0.1.0"
+dependencies = [
+ "clap",
+ "nmrstuff-analysis",
+ "nmrstuff-core",
+ "nmrstuff-formats",
+ "nmrstuff-proc",
+ "nmrstuff-report",
+]
+
+[[package]]
+name = "nmrstuff-core"
+version = "0.1.0"
+dependencies = [
+ "num-complex",
+ "serde",
+ "serde_json",
+ "thiserror 2.0.21",
+]
+
+[[package]]
+name = "nmrstuff-formats"
+version = "0.1.0"
+dependencies = [
+ "nmrstuff-core",
+ "num-complex",
+]
+
+[[package]]
+name = "nmrstuff-proc"
+version = "0.1.0"
+dependencies = [
+ "nmrstuff-core",
+ "num-complex",
+ "rustfft",
+]
+
+[[package]]
+name = "nmrstuff-render"
+version = "0.1.0"
+dependencies = [
+ "nmrstuff-core",
+]
+
+[[package]]
+name = "nmrstuff-report"
+version = "0.1.0"
+dependencies = [
+ "nmrstuff-core",
 ]
 
 [[package]]

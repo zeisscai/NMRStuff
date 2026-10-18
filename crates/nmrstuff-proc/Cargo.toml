@@ -1,0 +1,10 @@
+[package]
+name = "nmrstuff-proc"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+nmrstuff-core.workspace = true
+num-complex.workspace = true
+rustfft.workspace = true

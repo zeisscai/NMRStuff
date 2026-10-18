@@ -1,0 +1,21 @@
+[package]
+name = "nmrstuff-app"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "nmrstuff"
+path = "src/main.rs"
+
+[dependencies]
+nmrstuff-core.workspace = true
+nmrstuff-formats.workspace = true
+nmrstuff-proc.workspace = true
+nmrstuff-analysis.workspace = true
+nmrstuff-render.workspace = true
+nmrstuff-report.workspace = true
+eframe = { workspace = true, features = ["glow"] }
+egui.workspace = true
+serde.workspace = true
+serde_json.workspace = true

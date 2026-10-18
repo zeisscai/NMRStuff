@@ -1,4 +1,4 @@
-# mnv
+# NMRStuff
 
 轻量化的核磁共振（NMR）数据处理与谱图排版工具。
 
@@ -38,9 +38,9 @@
 需要 Rust 1.82 或更高版本：
 
 ```bash
-cargo build --release
-cargo run --release          # 启动图形界面
-cargo run -p mnv-cli -- --help   # 命令行用法
+cargo build --release                       # 构建全部 crate
+cargo run -p nmrstuff-app --release         # 启动图形界面
+cargo run -p nmrstuff-cli -- --help         # 命令行用法
 ```
 
 ## 许可
