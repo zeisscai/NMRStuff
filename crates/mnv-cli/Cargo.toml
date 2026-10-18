@@ -1,0 +1,17 @@
+[package]
+name = "mnv-cli"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "mnv-cli"
+path = "src/main.rs"
+
+[dependencies]
+mnv-core.workspace = true
+mnv-formats.workspace = true
+mnv-proc.workspace = true
+mnv-analysis.workspace = true
+mnv-report.workspace = true
+clap.workspace = true

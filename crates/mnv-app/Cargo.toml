@@ -1,0 +1,21 @@
+[package]
+name = "mnv-app"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "mnv"
+path = "src/main.rs"
+
+[dependencies]
+mnv-core.workspace = true
+mnv-formats.workspace = true
+mnv-proc.workspace = true
+mnv-analysis.workspace = true
+mnv-render.workspace = true
+mnv-report.workspace = true
+eframe = { workspace = true, features = ["glow"] }
+egui.workspace = true
+serde.workspace = true
+serde_json.workspace = true

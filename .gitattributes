@@ -1,0 +1,3 @@
+# 统一行尾：仓库内使用 LF
+* text=auto eol=lf
+*.png binary

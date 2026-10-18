@@ -1,0 +1,12 @@
+# 构建产物
+/target
+/.zigcache
+/.tmp
+/exports
+*.pdb
+*.exe
+
+# 本机工具链与文档（不入库）
+/.cargo
+/tools
+/docs
